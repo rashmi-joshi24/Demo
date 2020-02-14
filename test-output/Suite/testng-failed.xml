@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="Misc.NSEIndia">
+        <methods>
+          <include name="aaa"/>
+          <include name="launch"/>
+          <include name="endTest"/>
+          <include name="startClass"/>
+          <include name="startMethod"/>
+          <include name="getResult"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Misc.NSEIndia -->
+      <class name="Misc.Agile">
+        <methods>
+          <include name="launch"/>
+          <include name="endTest"/>
+          <include name="startClass"/>
+          <include name="startMethod"/>
+          <include name="getResult"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Misc.Agile -->
+      <class name="Misc.ShoppersStop">
+        <methods>
+          <include name="launch"/>
+          <include name="endTest"/>
+          <include name="startClass"/>
+          <include name="startMethod"/>
+          <include name="getResult"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Misc.ShoppersStop -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
